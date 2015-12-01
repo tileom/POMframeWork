@@ -5,6 +5,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.Select;
 
 public class LookupZipPage extends AbstractImplementingPage{
 
@@ -31,6 +32,11 @@ public class LookupZipPage extends AbstractImplementingPage{
 		@FindBy (id=Util.find)
 		public WebElement find;
 		
+		@FindBy (xpath=Util.State)
+		public WebElement statSelect;
+		
+		
+		
 		
 		
 		//fill the detail address
@@ -40,7 +46,9 @@ public class LookupZipPage extends AbstractImplementingPage{
 			apt.sendKeys("0");
 			city.sendKeys("Nashville");
 			zip.sendKeys("37217");
-							
+			
+			Select stateObj	=new Select( statSelect);
+			stateObj.selectByVisibleText("AK - Alaska");
 			return this;
 		}
 		

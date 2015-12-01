@@ -1,5 +1,6 @@
 package org.googleSearchTest;
-
+//Implicit wait for entire page-
+//Explicit wait for specific webElements 
 
 import org.junit.After;
 import org.junit.Before;
