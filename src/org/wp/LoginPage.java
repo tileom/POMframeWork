@@ -11,8 +11,11 @@ public class LoginPage extends AbstractPage {
 		
 	}
 	
+	//create your webElements here using the annotation findBy 
+	
 
-	public HomePage goToHomePage(){
+	public HomePage loginToAccount(){
+		//Enter Credentials and click login 
 		
 		return new HomePage(driver);
 		

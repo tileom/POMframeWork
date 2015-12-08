@@ -12,6 +12,10 @@ public class HomePage extends AbstractPage {
 	}
 	
 	
+	//create your webElements here using the annotation findBy 
+	
+	//Add your assertion here 
+	
 	
 	
 	

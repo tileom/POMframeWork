@@ -11,10 +11,14 @@ public class LandingPage extends AbstractPage {
 		PageFactory.initElements(driver, this);	 //Activate the page elements to access through @FindBy 
 	}
 
-	
+	//create your webElements here using the annotation findBy 
 	
 	
 public LoginPage goToLoginPage(){
+	//click on login link 
+	
+	
+	
 	
 	return new LoginPage(driver);
 }
