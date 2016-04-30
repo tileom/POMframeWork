@@ -9,6 +9,8 @@ public class testTwo {
 	 System.out.println("TestBranch changes");
 
 	 System.out.println("BaseSanityTest");
+	 
+	 System.out.println("Commit from terminal");
 
 }
 }
