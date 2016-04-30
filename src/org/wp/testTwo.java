@@ -1,5 +1,7 @@
 package org.wp;
 
+import java.util.ArrayList;
+
 public class testTwo {
  public static void main(String[] args) {
 	
@@ -10,7 +12,10 @@ public class testTwo {
 
 	 System.out.println("BaseSanityTest");
 	 
-	 System.out.println("Commit from terminal");
+	 
+	 ArrayList<String> myStringArrays=new ArrayList<String>();
+	 
+	
 
 }
 }
