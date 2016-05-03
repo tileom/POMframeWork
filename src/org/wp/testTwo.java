@@ -14,7 +14,7 @@ public class testTwo {
 	 
 
 	 int j=35;
-	 
+	 k;
 
 	 
 	 ArrayList<String> myStringArrays=new ArrayList<String>();
