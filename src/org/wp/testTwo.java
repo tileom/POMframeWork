@@ -12,7 +12,7 @@ public class testTwo {
 
 	 System.out.println("BaseSanityTest");
 	 
-[]
+
 	 int j=25;
 	 
 
