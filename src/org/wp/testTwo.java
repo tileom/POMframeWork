@@ -1,17 +1,20 @@
 package org.wp;
 
 import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
 
 public class testTwo {
  public static void main(String[] args) {
-
-	 
-	 System.out.println("gitProject2");
-
-	 System.out.println("TestBranch changes");
-
-	 System.out.println("BaseSanityTest");
-	 k=98;
+ArrayList<String> list=new ArrayList<String>();
+list.add("NLP");
+list.add("SearchNav");
+list.add("Main");
+	HashMap<String,ArrayList<String>> hash=new HashMap<String,ArrayList<String>>();
+	hash.put("st74", list);
+	ArrayList<String> hsa=hash.get("st74");
+	System.out.println(hsa.get(2));
+	
 
 	 
 	 
