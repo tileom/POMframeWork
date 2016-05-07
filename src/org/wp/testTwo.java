@@ -14,7 +14,7 @@ list.add("Main");
 	hash.put("st74", list);
 	ArrayList<String> hsa=hash.get("st74");
 	
-	System.out.println(hsa.get(2);
+	System.out.println(hsa.get;
 
 	 
 	 
