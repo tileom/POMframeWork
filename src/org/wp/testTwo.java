@@ -12,9 +12,10 @@ list.add("SearchNav");
 list.add("Main");
 	HashMap<String,ArrayList<String>> hash=new HashMap<String,ArrayList<String>>();
 	hash.put("st74", list);
-	ArrayList<String> hsa=hash.get("st74");
 	
-	System.out.println(hsa.get;
+	System.out.println(hash);
+	
+	
 
 	 
 	 
