@@ -13,7 +13,6 @@ list.add("Main");
 	HashMap<String,ArrayList<String>> hash=new HashMap<String,ArrayList<String>>();
 	hash.put("st74", list);
 	
-	System.out.println(has
 	
 
 	 
